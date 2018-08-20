@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+
+      
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+      
+
+      <title>Restful Api Protokol</title>
+
+      
+        
+          <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+          <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+      
+
+    
+  </head>
+
+  
+  <body>
+
+    <div class="wrapper">
+      
+        <div class="navbar navbar-static-top navbar-inverse" role="navigation" aria-label="navbar" style="background: black;color: white">
+          <div class="container">
+            <span>
+              
+                <a class='navbar-brand' style="color: white">
+                    Api ni bro
+                </a>
+              
+            </span>
+          </div>
+        </div>
+      
+
+      <div class="container">
+        
+          <ul class="breadcrumb">
+            
+              
+                <li class="active"><a href="/api/">Api Root</a></li>
+              
+            
+          </ul>
+        
+
+        <!-- Content -->
+        <div id="content" role="main" aria-label="content">
+          
+
+            <div class="content-main" role="main"  aria-label="main content">
+              <div class="page-header">
+                <h1>Api Root</h1>
+              </div>
+              <div style="float:left">
+                
+                  <p>The default basic root view for DefaultRouter</p>
+                
+              </div>
+
+              
+
+              <div class="request-info" style="clear: both" aria-label="request info">
+                <pre class="prettyprint"><b>GET</b> /api/</pre>
+              </div>
+
+              <div class="response-info" aria-label="response info">
+                <pre class="prettyprint"><span class="meta nocode"><b>HTTP 200 OK</b>
+<b>Allow:</b> <span class="lit">GET, HEAD, OPTIONS</span>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+
+</span>{
+    &quot;album&quot;: &quot;<a href="http://localhost:8000/api/album/" rel="nofollow">http://localhost:8000/api/album/</a>&quot;,
+    &quot;song&quot;: &quot;<a href="http://localhost:8000/api/song/" rel="nofollow">http://localhost:8000/api/song/</a>&quot;
+}</pre>
+              </div>
+            </div>
+
+            
+              
+
+              
+            
+          
+        </div><!-- /.content -->
+      </div><!-- /.container -->
+    </div><!-- ./wrapper -->
+
+    
+
+    
+      <script src="/static/rest_framework/js/jquery-3.3.1.min.js"></script>
+      <script src="/static/rest_framework/js/ajax-form.js"></script>
+      <script src="/static/rest_framework/js/csrf.js"></script>
+      <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+      <script src="/static/rest_framework/js/prettify-min.js"></script>
+      <script src="/static/rest_framework/js/default.js"></script>
+      <script>
+        $(document).ready(function() {
+          $('form').ajaxForm();
+        });
+      </script>
+    
+
+  </body>
+  
+</html>
